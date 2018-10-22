@@ -1,0 +1,11 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘TestDemo’ do
+	pod 'SwiftyJSON'
+    pod 'Alamofire', '~> 4.4'
+    pod 'MJRefresh'
+    pod 'Reachability'
+    pod 'IQKeyboardManagerSwift'
+
+end
